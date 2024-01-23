@@ -1,0 +1,40 @@
+:root {
+    --gap: 24px;
+    --color-text: #16181A;
+    --color-background: #FFFFFF;
+    --color-primary: #8654CC;
+    --color-thin: #E4EBF0;
+    --color-shade: #8C959C;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+body {
+    color: var(--color-text);
+    background: var(--color-background);
+    line-height: 24px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+input {
+    border: none
+}
+
+input:focus-visible {
+    outline: none
+}
